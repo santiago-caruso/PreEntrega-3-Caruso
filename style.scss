@@ -32,7 +32,7 @@ $font1:Verdana;
     border: none;
     
     i {
-        color: azure;
+        color: $text-color;
     }
     
 }
@@ -44,7 +44,7 @@ $font1:Verdana;
     justify-content: center;
     text-align: center;
     height: 90vh;
-    color: white;
+    color: $text-color;
     background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url(Images/Hero.jpg);
     background-repeat: no-repeat;
@@ -62,7 +62,7 @@ $font1:Verdana;
     padding: 10px 20px;
     border-radius: 10px;
     background-color: $secondary-color;
-    color: white;
+    color: $text-color;
     margin-bottom: 10px;
     position: static;
     }
@@ -70,7 +70,7 @@ $font1:Verdana;
 
 h2 {
     background-color: $accent-color;
-    color: white;
+    color: $text-color;
     text-align: center;
     padding: 20px;
     margin: 0%;
@@ -148,7 +148,7 @@ h2 {
     .contactoForm {
     width: 40%;
     padding: 40px;
-    background: #fff;
+    background: $text-color;
 
     h2 {
         font-size: 30px;
@@ -227,7 +227,7 @@ h2 {
 
     h4 {
         font-size: 20px;
-        color: white;
+        color: $text-color;
         margin-bottom: 25px;
         font-weight: 500;
         border-bottom: 2px solid rgb(7, 102, 169);
