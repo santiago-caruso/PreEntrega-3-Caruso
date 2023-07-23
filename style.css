@@ -230,4 +230,12 @@ h2 {
   }
 }
 
+  .card {
+    transition: all 0.5s;
+  }
+
+  .card:hover {
+    transform: scale(1.10);
+  }
+
 /*# sourceMappingURL=style.css.map */
