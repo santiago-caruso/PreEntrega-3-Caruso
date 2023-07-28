@@ -301,7 +301,13 @@ h2 {
     object-fit: cover;
     border-radius: 10px;
   }
-
+  
+  .box-img:hover,
+  .box-img:focus{
+    box-shadow: 0 0.5em 0.5em -0.4em var (--hover);
+    transform: translateY(-0.25em);
+    transition: all 0.6s;
+}
 
   .container-img .box-img:nth-child(1){
     grid-column-start: span 2 ;
@@ -322,6 +328,15 @@ h2 {
     .container-img .box-img:nth-child(1){
       grid-column-start: span 1;
     }
+
+    #exclusivo{
+      flex-direction: column;
+    }
+
+    #exclusivo img{
+      width: 100%;
+      height: auto;
+    }
   }
 
   @media screen and (max-width:500px){
@@ -333,6 +348,49 @@ h2 {
     .container-img .box-img img{
       height:200px;
     }
+
   }
 
+  #exclusivo{
+    padding: 50px 50px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+
+  #exclusivo img{
+    border-radius: 100%;
+  }
+
+  #exclusivo div{
+    padding: 30px 30px;
+  }
+
+  #exclusivo div h4{
+    color: #666;
+    font-size: 20px;
+    margin: 15px 0px;
+  }
+
+  #exclusivo div p{
+    color: #666;
+    font: 18px;
+  }
+
+  .boton-saber-mas{
+    display: inline-block;
+    text-decoration: none;
+    color: cornflowerblue;
+    padding: 10px 30px;
+    border: 3px solid cornflowerblue;
+    border-radius: 30px;
+    margin-top: 15px;
+    transition: all 0.4s;
+  }
+
+  .boton-saber-mas:hover{
+    background-color: cornflowerblue;
+    color: #fff;
+    text-decoration: none;
+  }
 /*# sourceMappingURL=style.css.map */
